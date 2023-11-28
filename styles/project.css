@@ -1,0 +1,98 @@
+.welcome {
+  padding: 6.2rem;
+  font-size: 3.6rem;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#what-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.what-info {
+  max-width: 36rem;
+}
+.what-info h1 {
+  margin-bottom: 3rem;
+}
+.what-cards {
+  display: flex;
+  gap: 6.4rem;
+  margin-top: 3rem;
+}
+.what-card {
+  background-color: #323443;
+  min-width: 14rem;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.2rem;
+  padding: 2rem 1.2rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.what-card img {
+  position: absolute;
+  width: 3.4rem;
+  top: -2.9rem;
+}
+
+/* projects sec */
+#projects-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 3.1rem;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+    max-width: 65rem;
+}
+.project-image {
+  background-color: #323443;
+  display: flex;
+  padding: 2.4rem 4rem 0;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.project-image:hover {
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+.project-image .icon{
+    background-color: #494a57;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+
+}
+
+/* projects sec done */
+
+/* responsive */
+@media (max-width: 720px) {
+  .what-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
